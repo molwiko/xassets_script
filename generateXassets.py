@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# __author__ = "Mohamed Habbat (mohamedhabbat@icloud.com)"
+# __author__ = "Mohamed Habbat (waitpro@gmail.com)"
 
 import os
 import sys
@@ -179,21 +179,13 @@ def setupImageDirectory(directory):
 
 
 if __name__ == '__main__':
-	
-	#############################################
-	#############################################
-	# Usage: 									#
-	#	python generateXassects.py directory -v # 
-	#	python generateXassects.py directory  	#
-	#############################################
-	#############################################
 	verbose = False
 	parser = argparse.ArgumentParser()
 	parser = argparse.ArgumentParser(__file__, description="This script organise assets as per iOS xassets structure\n Folder name contain Images (1x - 2x  -3x) and Contents.json")
 	parser.add_argument("--directory", "-d", help="The directory name", type=str, default='.')
 	parser.add_argument("--rename", "-r", help="Add @2x to images", action="store_true")
 	parser.add_argument("--missing", "-m", help="Save missing images as json file", action="store_true")
-	parser.add_argument("--verbose", help="increase output verbosity", action="store_true")
+	parser.add_argument("--verbose", help="Increase output verbosity", action="store_true")
 	
 	args = parser.parse_args()
 	if(args.verbose):
