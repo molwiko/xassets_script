@@ -1,7 +1,7 @@
 xassets_script
 ==============
 
-This script organise assets as per iOS xassets structure 
+This script organise assets as per iOS xassets catalog structure 
 Folder name contain Images (1x - 2x - 3x) and Contents.json
 
 Json format supported :
