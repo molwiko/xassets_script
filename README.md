@@ -11,12 +11,12 @@ Json format supported :
     {
       "idiom" : "iphone",
       "scale" : "1x",
-      "filename" : "PC_white_landscape.png"
+      "filename" : "image.png"
     },
     {
       "idiom" : "iphone",
       "scale" : "2x",
-      "filename" : "PC_white_landscape@2x.png"
+      "filename" : "image@2x.png"
     },
     {
       "idiom" : "iphone",
